@@ -56,3 +56,8 @@ El rendimiento es modesto porque la cobertura mediática depende de factores ext
 ## Nota
 
 Las implementaciones son didácticas y no sustituyen bibliotecas optimizadas. El dataset es público y se conserva en su versión original y limpia para reproducibilidad.
+
+## Repositorio
+
+https://github.com/EdwinQ12/U3_SH_AnalisisSupervisado_UFO
+
