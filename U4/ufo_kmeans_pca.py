@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+﻿# -*- coding: utf-8 -*-
 """
 U4 Saber Hacer - Análisis no supervisado con dataset UFO.
 K-Means + PCA, métricas, optimización y comparación antes/después.
@@ -12,7 +12,7 @@ matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 
 BASE = os.path.dirname(os.path.abspath(__file__))
-OUT = os.path.join(BASE, "resultados_ufo_u4")
+OUT = os.path.join(BASE, "resultados")
 os.makedirs(OUT, exist_ok=True)
 plt.rcParams["font.family"] = "Arial"
 plt.rcParams["font.size"] = 9
@@ -334,3 +334,4 @@ transformado.to_csv(os.path.join(BASE, "ufo_u4_transformado.csv"), index=False, 
 with open(os.path.join(OUT, "resultados.json"), "w", encoding="utf-8") as f:
     json.dump(summary, f, ensure_ascii=False, indent=2)
 print(json.dumps(summary, ensure_ascii=False, indent=2))
+
