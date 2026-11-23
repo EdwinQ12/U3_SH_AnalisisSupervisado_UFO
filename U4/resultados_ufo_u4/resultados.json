@@ -1,0 +1,219 @@
+{
+  "datos": {
+    "n": 1164,
+    "features": [
+      "year",
+      "month",
+      "hour",
+      "weekday",
+      "summary_len",
+      "word_count",
+      "kw_light",
+      "kw_sound",
+      "kw_speed",
+      "kw_triangle",
+      "kw_disk",
+      "kw_multiple",
+      "kw_military",
+      "kw_photo",
+      "kw_entity",
+      "kw_night"
+    ],
+    "media_rate": 0.35652920962199314
+  },
+  "pca": {
+    "explained": [
+      0.13128427857270167,
+      0.08681800640430812,
+      0.07376834447816637,
+      0.07292786643738199,
+      0.06926680536429428,
+      0.06551839016833876,
+      0.06250124407455332,
+      0.06074613313083802,
+      0.05910974792066103,
+      0.0576969095319404,
+      0.05608540928893937,
+      0.05481743521087454,
+      0.05231512861625453,
+      0.04790296655310164,
+      0.04673022746733697,
+      0.002511106780308909
+    ],
+    "cum_explained": [
+      0.13128427857270167,
+      0.21810228497700979,
+      0.29187062945517617,
+      0.36479849589255814,
+      0.4340653012568524,
+      0.49958369142519116,
+      0.5620849354997445,
+      0.6228310686305825,
+      0.6819408165512435,
+      0.7396377260831839,
+      0.7957231353721232,
+      0.8505405705829978,
+      0.9028556991992523,
+      0.950758665752354,
+      0.997488893219691,
+      0.9999999999999999
+    ],
+    "n80": 12,
+    "n90": 13
+  },
+  "kmeans": [
+    {
+      "k": 2,
+      "inertia": 13985.594266508064,
+      "silhouette": 0.13377685217611252,
+      "davies_bouldin": 2.5138187342219926,
+      "calinski_harabasz": 154.11306497258107
+    },
+    {
+      "k": 3,
+      "inertia": 12889.664363924881,
+      "silhouette": 0.14300452694925125,
+      "davies_bouldin": 1.908258223029308,
+      "calinski_harabasz": 132.89262019272556
+    },
+    {
+      "k": 4,
+      "inertia": 11993.463258616463,
+      "silhouette": 0.15735677525903077,
+      "davies_bouldin": 1.9567817744193337,
+      "calinski_harabasz": 124.02658915563005
+    },
+    {
+      "k": 5,
+      "inertia": 11323.29021139774,
+      "silhouette": 0.1466258464312005,
+      "davies_bouldin": 1.7826163657381584,
+      "calinski_harabasz": 115.58938435838758
+    },
+    {
+      "k": 6,
+      "inertia": 10220.350472965532,
+      "silhouette": 0.16654310070063066,
+      "davies_bouldin": 1.7038208048066374,
+      "calinski_harabasz": 127.35562512717351
+    },
+    {
+      "k": 7,
+      "inertia": 9751.126412822734,
+      "silhouette": 0.14767814555796152,
+      "davies_bouldin": 1.8261847159399243,
+      "calinski_harabasz": 120.41972451380298
+    },
+    {
+      "k": 8,
+      "inertia": 9689.921579805574,
+      "silhouette": 0.12654695159606805,
+      "davies_bouldin": 1.8684801107653413,
+      "calinski_harabasz": 104.82218376845978
+    },
+    {
+      "k": 9,
+      "inertia": 8438.799383278782,
+      "silhouette": 0.1466365139725171,
+      "davies_bouldin": 1.677340849016787,
+      "calinski_harabasz": 126.63126569437634
+    },
+    {
+      "k": 10,
+      "inertia": 7314.348355049312,
+      "silhouette": 0.17421565311005335,
+      "davies_bouldin": 1.4025411692403662,
+      "calinski_harabasz": 149.46484658997403
+    }
+  ],
+  "best_k": 6,
+  "best_silhouette": 0.16654310070063066,
+  "silhouette_max_k": 10,
+  "silhouette_max": 0.17421565311005335,
+  "profiles": [
+    {
+      "cluster": 0,
+      "n": 456,
+      "media_rate": 0.34649122807017546,
+      "year_mean": 2008.6315789473683,
+      "hour_mean": 14.758771929824562,
+      "summary_len": 50.96491228070175,
+      "top_shape": "Geometric",
+      "top_country": "USA",
+      "top_state": "Other/Unknown"
+    },
+    {
+      "cluster": 1,
+      "n": 67,
+      "media_rate": 0.34328358208955223,
+      "year_mean": 2010.5373134328358,
+      "hour_mean": 16.65671641791045,
+      "summary_len": 98.50746268656717,
+      "top_shape": "Geometric",
+      "top_country": "USA",
+      "top_state": "Other/Unknown"
+    },
+    {
+      "cluster": 2,
+      "n": 75,
+      "media_rate": 0.4666666666666667,
+      "year_mean": 2015.04,
+      "hour_mean": 15.44,
+      "summary_len": 91.48,
+      "top_shape": "Geometric",
+      "top_country": "USA",
+      "top_state": "Other/Unknown"
+    },
+    {
+      "cluster": 3,
+      "n": 357,
+      "media_rate": 0.37815126050420167,
+      "year_mean": 2007.4733893557423,
+      "hour_mean": 14.92717086834734,
+      "summary_len": 115.83473389355743,
+      "top_shape": "Geometric",
+      "top_country": "USA",
+      "top_state": "Other/Unknown"
+    },
+    {
+      "cluster": 4,
+      "n": 191,
+      "media_rate": 0.3036649214659686,
+      "year_mean": 2007.780104712042,
+      "hour_mean": 15.408376963350785,
+      "summary_len": 99.13612565445027,
+      "top_shape": "Geometric",
+      "top_country": "USA",
+      "top_state": "Other/Unknown"
+    },
+    {
+      "cluster": 5,
+      "n": 18,
+      "media_rate": 0.3333333333333333,
+      "year_mean": 2002.5555555555557,
+      "hour_mean": 14.777777777777779,
+      "summary_len": 87.0,
+      "top_shape": "Geometric",
+      "top_country": "USA",
+      "top_state": "Other/Unknown"
+    }
+  ],
+  "comparacion": {
+    "antes": {
+      "config": "k=3, todas las variables",
+      "k": 3,
+      "components": 16,
+      "silhouette": 0.1209035191906504,
+      "davies_bouldin": 2.125356730549458,
+      "calinski_harabasz": 110.90898550667971
+    },
+    "despues": {
+      "config": "k=6, PCA 12 componentes",
+      "k": 6,
+      "components": 12,
+      "silhouette": 0.16654310070063066,
+      "davies_bouldin": 1.7038208048066374,
+      "calinski_harabasz": 127.35562512717351
+    }
+  }
+}

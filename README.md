@@ -61,3 +61,12 @@ Las implementaciones son didácticas y no sustituyen bibliotecas optimizadas. El
 
 https://github.com/EdwinQ12/U3_SH_AnalisisSupervisado_UFO
 
+
+## U4 · Análisis no supervisado
+
+La carpeta `U4/` contiene el análisis de agrupación y reducción de dimensionalidad con K-Means y PCA, usando el mismo dataset UFO. Incluye código, datasets original/limpio/transformado, figuras y README propio.
+
+- Código: `U4/ufo_kmeans_pca.py`.
+- Documento: `docs/U4_SABER_HACER_AnalisisNoSupervisado_CortesJaraQuiroz_IDGS-9C.pdf`.
+- Resultados: `U4/resultados/`.
+
