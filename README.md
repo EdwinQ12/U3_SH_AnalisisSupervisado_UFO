@@ -20,10 +20,20 @@ Corrección del caso práctico de la Unidad 3 usando el dataset de avistamientos
 
 ```bash
 python -m venv .venv
+
 # Windows
 .venv\Scripts\activate
+
+# Linux / macOS
+source .venv/bin/activate
+
 pip install -r requirements.txt
+
+# Unidad 3 (Clasificación supervisada)
 python ufo_supervised.py
+
+# Unidad 4 (Agrupación y PCA)
+python U4/ufo_kmeans_pca.py
 ```
 
 ## Caso
@@ -70,3 +80,8 @@ La carpeta `U4/` contiene el análisis de agrupación y reducción de dimensiona
 - Documento: `docs/U4_SABER_HACER_AnalisisNoSupervisado_CortesJaraQuiroz_IDGS-9C.pdf`.
 - Resultados: `U4/resultados/`.
 
+## Equipo · IDGS-9C
+
+- Cortes Cabrera Carlos Misael
+- Jara Martinez Brenda Nataly
+- Quiroz García Edwin Jaziel
