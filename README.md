@@ -21,7 +21,7 @@ Corrección del caso práctico de la Unidad 3 usando el dataset de avistamientos
 ```bash
 python -m venv .venv
 # Windows
-.venv\Scripts\activate
+.\.venv\Scripts\activate.ps1
 pip install -r requirements.txt
 python ufo_supervised.py
 ```
